@@ -1,13 +1,11 @@
 $(function(){
     // 
     var duration = 300;
-
-    // buttons2 ----------------------------------------
     $('#buttons2 button').each(function(index){
-        //var pos = Math.random() * 80 - 40;
         var pos = index * 40 - 40;
-        $(this).css('top', pos);
+        $(this).css('top',pos);
     })
+
     .on('mouseover', function(){
         var $btn = $(this).stop(true).animate({
             backgroundColor: '#faee00',

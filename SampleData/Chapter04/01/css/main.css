@@ -140,7 +140,8 @@ button {
     overflow: hidden;
 }
 
-#buttons1 button span span {
+/* #buttons1 button span span { */
+    .span{
     display: block;
     width: 224px;
     height: 80px;
